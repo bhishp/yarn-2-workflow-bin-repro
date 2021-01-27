@@ -6092,7 +6092,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.11.0":
+"eslint@npm:^7.11.0, eslint@npm:^7.18.0":
   version: 7.18.0
   resolution: "eslint@npm:7.18.0"
   dependencies:
@@ -15229,6 +15229,7 @@ typescript@^4.0.3:
   version: 0.0.0-use.local
   resolution: "yarn-2-workflow-bin-repro@workspace:."
   dependencies:
+    eslint: ^7.18.0
     prettier: ^2.2.1
     ts-node: ^9.1.1
   languageName: unknown

@@ -9,6 +9,7 @@
     "g:lint": "cd $INIT_CWD && eslint --ext js,ts,tsx src"
   },
   "devDependencies": {
+    "eslint": "^7.18.0",
     "prettier": "^2.2.1",
     "ts-node": "^9.1.1"
   }
