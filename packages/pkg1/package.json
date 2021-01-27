@@ -23,7 +23,7 @@
     "eject": "react-scripts eject",
     "bin-lint": "../../node_modules/.bin/eslint --ext js,ts,tsx src",
     "lint": "yarn g:lint",
-    "pretty-check": "prettier --list-different './**/*.{js,json,ts,tsx,md,yml}'",
+    "pretty-check": "yarn g:pretty-check",
     "ts-node-check": "ts-node --project ts-node.tsconfig.json ./ts-node/node-script.ts"
   },
   "eslintConfig": {
@@ -45,7 +45,6 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^2.2.1",
     "ts-node": "^9.1.1"
   }
 }
