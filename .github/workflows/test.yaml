@@ -21,9 +21,9 @@ jobs:
         working-directory: ./packages/pkg1
         run: yarn tsc
 
-      - name: pretty-check
-        working-directory: ./packages/pkg1
-        run: yarn pretty-check
+#      - name: pretty-check
+#        working-directory: ./packages/pkg1
+#        run: yarn pretty-check
 
       - name: bin-lint
         working-directory: ./packages/pkg1
