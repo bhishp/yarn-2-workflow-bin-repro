@@ -25,13 +25,13 @@ jobs:
 #        working-directory: ./packages/pkg1
 #        run: yarn pretty-check
 
-      - name: bin-lint
-        working-directory: ./packages/pkg1
-        run: yarn bin-lint
-
-      - name: check linting
-        working-directory: ./packages/pkg1
-        run: yarn lint
+#      - name: bin-lint
+#        working-directory: ./packages/pkg1
+#        run: yarn bin-lint
+#
+#      - name: check linting
+#        working-directory: ./packages/pkg1
+#        run: yarn lint
 
       - name: check ts-node
         working-directory: ./packages/pkg1
