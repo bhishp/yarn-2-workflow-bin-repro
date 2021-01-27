@@ -1,0 +1,42 @@
+name: Test workflow
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: install deps
+        working-directory: ./packages/pkg1
+        run: yarn install --immutable
+
+      - name: check typing
+        working-directory: ./packages/pkg1
+        run: yarn tsc
+
+      - name: pretty-check
+        working-directory: ./packages/pkg1
+        run: yarn pretty-check
+
+      - name: bin-lint
+        working-directory: ./packages/pkg1
+        run: yarn bin-lint
+
+      - name: check linting
+        working-directory: ./packages/pkg1
+        run: yarn lint
+
+      - name: check ts-node
+        working-directory: ./packages/pkg1
+        run: yarn ts-node-check
+
+      - name: build
+        working-directory: ./packages/pkg1
+        run: yarn build

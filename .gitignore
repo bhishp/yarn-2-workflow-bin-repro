@@ -1,0 +1,12 @@
+.idea
+node_modules
+/**/node_modules
+*.eslintcache
+
+# yarn2 - node_modules
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*

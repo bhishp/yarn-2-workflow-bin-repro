@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "yarn-2-workflow-bin-repro",
+  "repository": "https://github.com/bhishp/yarn-2-workflow-bin-repro.git",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1"
+  }
+}
