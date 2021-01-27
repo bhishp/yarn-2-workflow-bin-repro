@@ -5,6 +5,9 @@
   ],
   "name": "yarn-2-workflow-bin-repro",
   "repository": "https://github.com/bhishp/yarn-2-workflow-bin-repro.git",
+  "scripts": {
+    "g:lint": "cd $INIT_CWD && eslint --ext js,ts,tsx src"
+  },
   "devDependencies": {
     "prettier": "^2.2.1",
     "ts-node": "^9.1.1"
