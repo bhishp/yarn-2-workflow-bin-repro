@@ -21,6 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "bin-lint": "../../node_modules/.bin/eslint --ext js,ts,tsx src",
     "lint": "eslint --ext js,ts,tsx src",
     "pretty-check": "prettier --list-different './**/*.{js,json,ts,tsx,md,yml}'",
     "ts-node-check": "ts-node --project tsnode.tsconfig.json ./ts-node/node-script.ts"
